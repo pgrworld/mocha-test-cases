@@ -1,0 +1,8 @@
+
+function myFunction(text){
+   return text;
+}
+
+var someImportText = myFunction("importing sometext document")
+
+console.log(someImportText);
