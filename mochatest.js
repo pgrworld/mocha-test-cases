@@ -124,7 +124,7 @@ describe("MS.addAff function", function(){
 
 describe("MS.hset function", function(){
   it("function testing",function(done){
-    assert.equal(MS.hset("251176216367984", {connecting: true}),  "testing"  )
+    assert.equal(MS.hset("251176216367984", {connecting: true}), )
     console.log(MS.sessionDestroyMACS)
          done();
 
@@ -133,7 +133,7 @@ describe("MS.hset function", function(){
 
 describe("MS.hset function", function(){
   it("function testing",function(done){
-    assert.equal(MS.hset("251176216367984", {connecting: true}), "testing" )
+    assert.equal(MS.hset("251176216367984", {connecting: true}), )
          done();
   });
 });
