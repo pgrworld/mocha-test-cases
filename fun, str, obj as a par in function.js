@@ -10,3 +10,9 @@ function someFunc(obj) {
  exports.myString = function(text){
 	console.log(text);
 };
+
+//array as a parameter in function
+exports.myArray = function(array){
+ var array = ["pulsar","suzuki","honda","zmr"];
+ console.log(array)
+};
