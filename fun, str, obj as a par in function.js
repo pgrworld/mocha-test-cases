@@ -7,8 +7,6 @@ function someFunc(obj) {
   someFunc({key1: "This", key2: "works!"});
   
 //string as a parameter in function 
-  
-  function myString(text){
+ exports.myString = function(text){
 	console.log(text);
 };
-myString("Think positive")
