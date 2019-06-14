@@ -4,3 +4,13 @@
    var changed = x.replace("kondapur","madhapur");
    console.log(changed)
    msg.myFunction(changed)
+
+
+
+                        // (or)
+
+var msg = require("./variables.js");
+
+exports.func = function(){
+	return msg.str.replace("kondhapur", "madhapur");
+}
