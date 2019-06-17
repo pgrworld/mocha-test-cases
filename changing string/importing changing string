@@ -1,0 +1,15 @@
+// importing changing string 
+ var msg = require("./variables.js");
+   var x = msg.myFunction();
+   //console.log(x) // for checking 
+   var changed = x.replace("kondapur","madhapur");
+   console.log(changed)
+   msg.myFunction(changed)
+
+           // (or)
+
+var msg = require("./variables.js");
+
+exports.func = function(){
+	return msg.str.replace("kondhapur", "madhapur");
+}
