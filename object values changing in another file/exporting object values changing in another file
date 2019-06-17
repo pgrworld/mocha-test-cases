@@ -1,0 +1,12 @@
+// objects values changing in another file
+var obj1 = {
+	fName : "gowrav",
+	lName : "rahul"
+}
+
+var obj2 = {
+	fName : "swaroop",
+	lName : "pentakota"
+}
+
+module.exports = {obj1, obj2}
