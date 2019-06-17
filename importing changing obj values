@@ -1,9 +1,0 @@
-var msg = require("./variables.js");
- console.log(msg.obj1.fName);
-
- msg.obj1.fName = "me";
- console.log(msg.obj1.fName);
-
-console.log(msg.obj2.fName);
- msg.obj2.fName = "anna";
- console.log(msg.obj2.fName);
